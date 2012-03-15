@@ -1,0 +1,16 @@
+name: HomeX
+main: de.tikkub.zelnehlun.HomeX.HomeX
+version: 0.6
+commands:
+  home:
+    description: Allows you to teleport to your Home.
+  sethome:
+    description: Allows you to set your Home.
+permissions:
+    HomeX.*:
+    HomeX.sethome:
+        description: Allows you to set your Home.
+        default: true
+    HomeX.home:
+        description: Allows you to teleport to your Home.
+        default: true
